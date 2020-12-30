@@ -1,0 +1,35 @@
+.topbar {
+    height: 8%;
+    border-bottom: 0.5px groove rgba(0, 0, 0, 0.1);
+}
+
+.topbar img {
+    margin-left: 150%;
+    width: 100%;
+    height: auto;
+}
+
+.topbar span {
+    margin-top: 1%;
+    margin-left: -30%;
+    font-size: 1.5vw;
+    color: #666666;
+    font-weight: 700;
+}
+
+.topbar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-top: 2%;
+}
+
+.topbar ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.topbar ul li a {
+    text-decoration: none;
+    text-align: center;
+}

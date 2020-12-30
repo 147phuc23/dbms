@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <title>PIM</title>
+    <link href="../static/images/logo.png" th:href="@{/images/logo.png}" rel="shortcut icon"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <!-- Font Awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <!-- Custom style -->
+    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet"/>
+    <link href="../static/css/topbar.css" th:href="@{/css/topbar.css}" rel="stylesheet"/>
+    <link href="../static/css/notice.css" th:href="@{/css/notice.css}" rel="stylesheet"/>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav th:replace="bar :: topbar"></nav>
+    <div th:fragment="error-body">
+        <div class="col-40">
+            <img src="../static/images/cls.png" alt="error" th:src="@{/images/cls.png}"
+                 style="width: 100%; height: auto; margin-top: 5%; margin-left: 35%"/>
+        </div>
+        <div class="col-60">
+            <div th:inline="text" style="margin-top: 15%">[[#{content.unexpectedError}]]</div>
+            <div th:inline="text">[[#{content.please}]]<a th:text="#{content.contactAdmin}" href="#" style="color: red"></a></div>
+            <div th:inline="text" style="margin-top: 2%">or<a th:text="#{content.backToMain}" href="/" style="color: #2F85FA;"></a></div>
+        </div>
+    </div>
+</body>
+</html>

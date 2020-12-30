@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>PIM</title>
+    <link href="../static/images/logo.png" th:href="@{/images/logo.png}" rel="shortcut icon"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <!-- Font Awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+
+    <!-- Custom style -->
+    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet"/>
+    <link href="../static/css/sidebar.css" th:href="@{/css/sidebar.css}" rel="stylesheet"/>
+    <link href="../static/css/topbar.css" th:href="@{/css/topbar.css}" rel="stylesheet"/>
+    <link href="../static/css/project-list.css" th:href="@{/css/project-list.css}" rel="stylesheet"/>
+    <link href="../static/css/main-form.css" th:href="@{/css/main-form.css}" rel="stylesheet"/>
+
+    <!-- JavaScript, JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../static/js/scripts.js" th:src="@{/js/scripts.js}"></script>
+    <script src="../static/js/handle.js" th:src="@{/js/handle.js}"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.min.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js"></script>
+
+    <script src="../static/js/pagination.js" th:src="@{/js/pagination.js}"></script>
+    <link href="../static/css/pagination.css" th:href="@{/css/pagination.css}" rel="stylesheet"/>
+
+</head>
+<body>
+<nav th:replace="bar :: topbar"></nav>
+<div id="content-body">
+    <nav th:replace="bar :: sidebar"></nav>
+    <div th:fragment="list-fragment" class="main-list-project col-80">
+        <h5 th:text="#{label.projectList}"></h5>
+        <hr/>
+        <form class="row" action="/search" style="margin: 20px 0 0 0;">
+            <div class="col-40">
+                <input id="text-filter" name="text-filter" type="search"
+                       th:placeholder="#{label.searchCriteriaText}"/>
+            </div>
+            <div class="col-20">
+                <select id="selection-filter" name="selection-filter" style="width: 90%; margin-left: 10%">
+                    <option th:text="#{label.searchCriteriaSelect}" selected="selected" disabled="disabled"></option>
+                    <option value="New">New</option>
+                    <option value="Pla">Pla</option>
+                    <option value="Inp">Inp</option>
+                    <option value="Fin">Fin</option>
+                </select>
+            </div>
+            <div class="col-20">
+                <input id="btn-search-project" onclick="searchProject(event)" type="submit" th:value="#{label.btnSearchProject}"
+                       style="width: 80%; margin-left: 20%; background: #2F85FA"/>
+            </div>
+            <div class="col-20">
+                <input id="btn-reset-search" onclick="resetSearch(event)" type="submit" th:value="#{label.btnResetSearch}"
+                       style="width: 80%; background: none; color: #2F85FA"/>
+            </div>
+        </form>
+        <div class="row" style="margin: 35px 0 0 0;">
+            <div class="table-responsive">
+                <table id="main-table" class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th class="r1"></th>
+                        <th th:text="#{label.columnNumber}" class="r2"></th>
+                        <th th:text="#{label.columnName}" class="r3"></th>
+                        <th th:text="#{label.columnStatus}" class="r4"></th>
+                        <th th:text="#{label.columnCustomer}" class="r5"></th>
+                        <th th:text="#{label.columnStartDate}" class="r6"></th>
+                        <th th:text="#{label.columnDelete}" class="r7"></th>
+                    </tr>
+                    </thead>
+                    <tbody id="table-body">
+                    <tr th:each="project : ${projects}">
+                        <td>
+                            <div class="custom-control custom-checkbox">
+                                <input onclick="panelEffect()" type="checkbox" class="custom-control-input"
+                                       th:id="${project.id}" th:name="${project.id}"/>
+                                <label class="custom-control-label" th:for="${project.id}"></label>
+                            </div>
+                        </td>
+                        <td>
+                            <a th:id="${project.projectNumber}" onclick="renderProject(event)"
+                               th:text="${project.projectNumber}" href="#" ></a>
+                        </td>
+                        <td th:text="${project.name}"></td>
+                        <td class="td-status" th:text="${project.status}"></td>
+                        <td th:text="${project.customer}"></td>
+                        <td th:text="${project.startDate}"></td>
+                        <td class="trash">
+                            <a href="#" onclick="deleteProject(event)" class="text-danger" style="visibility: hidden">
+                                <i class="fa fa-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="multi-delete-panel" class="multi-delete-panel"
+                 style="width: 100%; height: auto; padding: 10px; margin-bottom: 10px; display: flex; border: 1px solid #9E9E9E; border-top:none; background: #F6F9FF; visibility: hidden;">
+                <div id="number-of-deletions" style="font-size:1.1vw; color: #2F85FA; font-weight: 500;"></div>
+                <div th:text="#{label.itemsSelected}" style="width: 70%; margin-left: 5px;font-size:1.1vw; color: #2F85FA; font-weight: 500;"></div>
+                <div th:inline="text" style="width: 30%; margin-left: 39.2%; color: red; font-weight: 500;">[[#{label.deleteItems}]]
+                    <a onclick="multiDeleteProjects()" style="margin-left: 2%" href="#" class="text-danger"><i class="fa fa-trash"></i></a>
+                </div>
+            </div>
+            <div class="pagination">
+                <div id="pagination-wrapper"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

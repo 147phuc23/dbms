@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>PIM</title>
+    <link href="../static/images/logo.png" th:href="@{/images/logo.png}" rel="shortcut icon"/>
+</head>
+<body>
+<div th:id="${project.version}" th:fragment="form-fragment" class="main-form col-80">
+    <h5 th:text="#{label.newProject}" id="fragment-title"></h5>
+    <hr style="margin: 0 0 10px 40px;"/>
+    <div id="error-message"></div>
+    <form id="project-form" class="project-form" method="post">
+        <div class="row">
+            <div class="col-25">
+                <label th:inline="text" for="p-number">[[#{label.formProjectNumber}]]<span> *</span></label>
+            </div>
+            <div class="col-75">
+                <input th:value="${project.projectNumber}" id="p-number" name="p-number" type="number"
+                       style="width: 25%"/>
+            </div>
+            <div class="row" style="margin-top: 0; margin-left: 25%">
+                <div id="error-message4" style="padding: 0; color: red; transition: all 0.5s ease;">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label th:inline="text" for="p-name">[[#{label.formProjectName}]]<span> *</span></label>
+            </div>
+            <div class="col-75">
+                <input th:value="${project.name}" id="p-name" name="p-name" type="text" style="width: 75%"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label th:inline="text" for="customer">[[#{label.formCustomer}]]<span> *</span></label>
+            </div>
+            <div class="col-75">
+                <input th:value="${project.customer}" id="customer" name="customer" type="text" style="width: 75%"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label th:inline="text" for="group">[[#{label.formGroup}]]<span> *</span></label>
+            </div>
+            <div class="col-75">
+                <select id="group" name="group" style="width: 25%">
+                    <option value="New">New</option>
+                    <option th:each="id: ${groupIds}" th:value="${id}" th:text="${id}" th:selected="${id==group}"></option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label th:inline="text">[[#{label.formMembers}]]</label>
+            </div>
+            <div class="col-75">
+                <select data-placeholder="Select members" class="responsiveChosen" multiple="multiple" style="width: 75%">
+                    <option th:each="visa: ${emVisas}" th:value="${visa}" th:text="${visa}" th:selected="${employees.contains(visa)}"></option>
+                </select>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 0; margin-left: 25%">
+            <div id="error-message2" style="padding: 0; color: red; transition: all 0.5s ease;">
+            </div>
+        </div>
+        <div class="row" style="margin-top: 0; margin-left: 25%">
+            <div id="error-message3" style="padding: 0; color: red; transition: all 0.5s ease;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label th:inline="text" for="status">[[#{label.formStatus}]]<span> *</span></label>
+            </div>
+            <div class="col-75">
+                <select th:field="${project.status}" id="status" name="status" style="width: 25%">
+                    <option value="New">New</option>
+                    <option value="Pla">Pla</option>
+                    <option value="Inp">Inp</option>
+                    <option value="Fin">Fin</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-50">
+                <div class="col-50">
+                    <label th:inline="text" for="start-date">[[#{label.formStartDate}]]<span> *</span></label>
+                </div>
+                <div class="col-50">
+                    <input th:value="${project.startDate}" type="date" id="start-date" name="start-date"
+                           style="width: 75%"/>
+                </div>
+            </div>
+            <div class="col-50">
+                <div class="col-25">
+                    <label th:inline="text" for="end-date">[[#{label.formEndDate}]]</label>
+                </div>
+                <div class="col-75">
+                    <input th:value="${project.endDate}" type="date" id="end-date" name="end-date"
+                           style="width: 50%"/>
+                </div>
+            </div>
+        </div>
+        <hr style="margin: 30px 0 10px 40px;"/>
+        <div class="row">
+            <div class="col-44"></div>
+            <div class="col-56">
+                <div class="col-25">
+                    <input id="btn-cancel-create" type="submit" onclick="cancelCreate(event)" th:value="#{label.btnCancel}"
+                           style="width: 100%; background: lightgray; color: black"/>
+                </div>
+                <div class="col-75">
+                    <input id="btn-create-project" type="submit" onclick="createOrUpdateProject(event)" th:value="#{label.btnCreateProject}"
+                           style="width: 33%; margin-left: 95px; background: #2F85FA"/>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

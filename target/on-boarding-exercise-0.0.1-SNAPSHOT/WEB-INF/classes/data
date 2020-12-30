@@ -1,0 +1,56 @@
+INSERT INTO employee(birth_date, first_name, last_name, version, visa) VALUES
+('1999-09-23', 'Cong Anh', 'Nguyen', 1, 'ANC'),
+('1999-11-12', 'Hoang Phuc', 'Dang', 1, 'PDH'),
+('1999-06-21', 'Ba Anh', 'Bui', 1, 'ABB'),
+('1999-09-09', 'Le Quoc Cuong', 'Nguyen', 1, 'CQN'),
+('1999-03-22', 'Kieu An', 'Nguyen', 1, 'AKN'),
+('1999-02-19', 'Ngoc Chau', 'Nguyen', 1, 'CNN'),
+('1999-02-02', 'Le Tien Dat', 'Nguyen', 1, 'DTN'),
+('1999-04-21', 'Ngoc Huong', 'Dam', 1, 'HND'),
+('1999-01-06', 'Van Duc', 'Vo', 1, 'DVV'),
+('1999-10-07', 'Anh Van', 'Dang', 1, 'VAD');
+
+INSERT INTO group_table(version, group_leader_id) VALUES
+(1, 1), (1, 2), (1, 3);
+
+INSERT INTO project(customer, end_date, project_name, project_number, start_date, status, version, group_id) VALUES
+('Facebook', null, 'Facebook Web Services', 1123, '2020-09-01', 'New', 1, 1),
+('Instagram', null, 'Instagram Web Services', 1211, '2020-09-01', 'New', 1, 2),
+('Instagram', null, 'Instagram Android App', 1312, '2020-09-01', 'New', 1, 2),
+('Twitter', null, 'Twitter Web Services', 1441, '2020-09-01', 'New', 1, 1),
+('Netflix', null, 'Netflix Web Services', 1515, '2020-09-01', 'New', 1, 3),
+('WhatsApp', null, 'WhatsApp Web Services', 1612, '2020-09-01', 'New', 1, 1),
+('Dropbox', null, 'Dropbox Web Services', 1711, '2020-09-01', 'New', 1, 3),
+('Netflix', null, 'Netflix Web App', 1910, '2020-09-01', 'New', 1, 1),
+('Twitter', null, 'Twitter iOS App', 1817, '2020-09-01', 'New', 1, 1),
+('Facebook', null, 'Facebook Android App', 2044, '2020-09-01', 'New', 1, 2);
+
+INSERT INTO project_employee VALUES (8, 1), (8, 2), (8, 3);
+
+-- New: New
+-- Pla: Planned
+-- Inp: In progress
+-- Fin: Finished
+
+// Test
+INSERT INTO project(customer, end_date, project_name, project_number, start_date, status, version, group_id) VALUES
+('Facebook', null, 'Facebook Web Services', 3000, '2020-09-01', 'New', 1, 1),
+('Instagram', null, 'Instagram Web Services', 3001, '2020-09-01', 'New', 1, 2),
+('Instagram', null, 'Instagram Android App', 3002, '2020-09-01', 'Pla', 1, 2),
+('Twitter', null, 'Twitter Web Services', 3003, '2020-09-01', 'New', 1, 1),
+('Netflix', null, 'Netflix Web Services', 3004, '2020-09-01', 'New', 1, 3),
+('WhatsApp', null, 'WhatsApp Web Services', 3005, '2020-09-01', 'Inp', 1, 1),
+('Dropbox', null, 'Dropbox Web Services', 3006, '2020-09-01', 'New', 1, 3),
+('Netflix', null, 'Netflix Web App', 3007, '2020-09-01', 'Inp', 1, 1),
+('Twitter', null, 'Twitter iOS App', 3008, '2020-09-01', 'Pla', 1, 1),
+('Facebook', null, 'Facebook Android App', 3009, '2020-09-01', 'Inp', 1, 2),
+('Facebook', null, 'Facebook Web Services', 3010, '2020-09-01', 'New', 1, 1),
+('Instagram', null, 'Instagram Web Services', 3011, '2020-09-01', 'New', 1, 2),
+('Instagram', null, 'Instagram Android App', 3012, '2020-09-01', 'Pla', 1, 2),
+('Twitter', null, 'Twitter Web Services', 3013, '2020-09-01', 'New', 1, 1),
+('Netflix', null, 'Netflix Web Services', 3014, '2020-09-01', 'New', 1, 3),
+('WhatsApp', null, 'WhatsApp Web Services', 3015, '2020-09-01', 'Fin', 1, 1),
+('Dropbox', null, 'Dropbox Web Services', 3016, '2020-09-01', 'New', 1, 3),
+('Netflix', null, 'Netflix Web App', 3017, '2020-09-01', 'New', 1, 1),
+('Twitter', null, 'Twitter iOS App', 3018, '2020-09-01', 'New', 1, 1),
+('Facebook', null, 'Facebook Android App', 3019, '2020-09-01', 'Fin', 1, 2);

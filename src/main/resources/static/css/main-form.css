@@ -1,0 +1,84 @@
+.main-form {
+    padding: 10px;
+    border-left: 0.5px groove rgba(0, 0, 0, 0.1);
+}
+
+.main-form h5 {
+    font-size: 1.2vw;
+    margin: 12px 0 10px 40px;
+    color: #666666;
+}
+
+.main-form hr {
+    width: 78%
+}
+
+.main-form .row {
+    margin: 30px 0 0 0;
+}
+
+.main-form span {
+    color: red;
+}
+
+.main-form input, select {
+    width: 100%;
+    height: 30px;
+    padding: 4px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.main-form select {
+    padding: 0;
+}
+
+.main-form label {
+    margin: 0 0 0 60px;
+    color: #666666;
+}
+
+.main-form input[type=submit] {
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+/*input[type=submit]:hover {*/
+/*    background-color: #45a049;*/
+/*}*/
+
+/* Clear floats after the columns */
+.main-form .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-form #error-message {
+    margin: 0 0 10px 40px;
+    width: 78%;
+    padding: 0;
+    background: #FFCDD2;
+    color: red;
+    font-weight: 600;
+    border-radius: 4px;
+    text-align: left;
+    transition: all 0.5s ease;
+}
+
+.chosen-choices {
+    border-radius: 4px;
+    height: 30px;
+    background-image: none;
+}
+
+.search-choice span {
+    color: black;
+    font-size: 0.8vw;
+    line-height: 14px;
+}

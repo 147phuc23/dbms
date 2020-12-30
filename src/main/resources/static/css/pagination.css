@@ -1,0 +1,13 @@
+.pagination {
+    border: 1px solid rgba(0, 0, 0, .11);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.controls-item {
+    display: inline-block;
+}
+.btn {
+    margin: 1px;
+}

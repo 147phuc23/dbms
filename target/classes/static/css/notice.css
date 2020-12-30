@@ -1,0 +1,16 @@
+.col-60 {
+    padding: 2%;
+}
+
+.col-60 div {
+    font-size: 1.8vw;
+    color: #666666;
+    font-weight: 600;
+}
+
+.col-60 div a {
+    font-size: 1.8vw;
+    color: #666666;
+    font-weight: 600;
+    text-decoration: none;
+}

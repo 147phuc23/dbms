@@ -1,0 +1,66 @@
+* {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-80 {
+    float: left;
+    width: 80%;
+}
+
+.col-20 {
+    float: left;
+    width: 20%;
+    align-items:center;
+    display: flex;
+}
+
+.col-50 {
+    float: left;
+    width: 50%;
+    align-items:center;
+    display: flex;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    align-items:center;
+    display: flex;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    align-items:center;
+    display: flex;
+}
+
+.col-44 {
+    float: left;
+    width: 44%;
+    align-items:center;
+    display: flex;
+}
+
+.col-56 {
+    float: left;
+    width: 56%;
+    align-items:center;
+    display: flex;
+}
+
+.col-40 {
+    float: left;
+    width: 40%;
+    align-items:center;
+    display: flex;
+}
+
+.col-60 {
+    float: left;
+    width: 60%;
+}

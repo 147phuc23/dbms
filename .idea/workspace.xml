@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3434e37-635b-45ae-8018-2a520fabe366" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/HbaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/util/FormUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/eclipse/java-codeStyle-codeTemplate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../etc/eclipse/java-codeStyle-codeTemplate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/eclipse/java-codeStyle-formatter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../etc/eclipse/java-codeStyle-formatter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/eclipse/java-editor-templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../etc/eclipse/java-editor-templates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/eclipse/preferences.epf" beforeDir="false" afterPath="$PROJECT_DIR$/../etc/eclipse/preferences.epf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/env/setenv.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../etc/env/setenv.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/maven/settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../etc/maven/settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/ApplicationLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/ApplicationLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/ApplicationWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/ApplicationWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/ApplicationWebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/ApplicationWebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/dto/ProjectDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/dto/ProjectDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/entity/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/entity/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/entity/TaskAudit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/entity/TaskAudit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/entity/new_entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/entity/new_entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/entity/new_entity/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/entity/new_entity/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/entity/new_entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/entity/new_entity/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/exception/ConcurrentUpdateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/exception/ConcurrentUpdateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/exception/DeadlineGreaterThanProjectFinishingDateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/exception/DeadlineGreaterThanProjectFinishingDateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/exception/IllegalUserFormException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/exception/IllegalUserFormException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/exception/ProjectNumberAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/exception/ProjectNumberAlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/exception/VisasDoesNotExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/exception/VisasDoesNotExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/validator/TaskDeadlineConstraintValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/validator/TaskDeadlineConstraintValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/validator/TaskDeadlineValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/model/validator/TaskDeadlineValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/GroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/GroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/ProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/TaskAuditRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/TaskAuditRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/EmployeeRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/EmployeeRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/EmployeeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/EmployeeRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/GroupRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/GroupRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/GroupRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/GroupRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/ProjectRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/ProjectRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/ProjectRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/ProjectRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/TaskRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/TaskRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/TaskRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/repository/custom/TaskRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/AuditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/AuditService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/GroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/impl/AuditServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/impl/AuditServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/impl/GroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/impl/GroupServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/util/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/util/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/util/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/util/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/util/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/util/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/elca/training/web/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/elca/training/web/ApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_fr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_fr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/notice.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/notice.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/project-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/project-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/topbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/topbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/handle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/handle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/bar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/ProjectViewModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/ProjectViewModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vn/elca/training/repository/ProjectRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vn/elca/training/repository/ProjectRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vn/elca/training/service/TaskServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vn/elca/training/service/TaskServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/etc/sample-data-error.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/etc/sample-data-error.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/java/vn/elca/training/springbatch/configuration/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/java/vn/elca/training/springbatch/configuration/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/java/vn/elca/training/springbatch/configuration/BatchConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/java/vn/elca/training/springbatch/configuration/BatchConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/java/vn/elca/training/springbatch/model/Engineer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/java/vn/elca/training/springbatch/model/Engineer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/java/vn/elca/training/springbatch/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/java/vn/elca/training/springbatch/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/java/vn/elca/training/springbatch/step/tasklet/SimpleTasklet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/java/vn/elca/training/springbatch/step/tasklet/SimpleTasklet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/java/vn/elca/training/springbatch/util/CSVUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/java/vn/elca/training/springbatch/util/CSVUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/resources/sample-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/resources/sample-data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/resources/schema-all.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/main/resources/schema-all.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/test/java/vn/elca/training/springbatch/configuration/BatchTestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/test/java/vn/elca/training/springbatch/configuration/BatchTestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/test/java/vn/elca/training/springbatch/configuration/ExampleSpringBatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/test/java/vn/elca/training/springbatch/configuration/ExampleSpringBatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/test/resources/sample-data-error.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/test/resources/sample-data-error.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/test/resources/sample-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/test/resources/sample-data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/test/resources/schema-data-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/test/resources/schema-data-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/test/resources/schema-hsqldb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-batch/spring-batch-training/src/test/resources/schema-hsqldb.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="feature/anc" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gzOc7geoGL0r3YpkITr1zTMm1I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-hadoop-samples" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anc\Documents\newcomers-java\on-boarding-exercise\src\main\resources\static\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="C:\Users\anc\Documents\newcomers-java\on-boarding-exercise\src\main\resources\static\css" />
+      <recent name="C:\Users\anc\Documents\newcomers-java\on-boarding-exercise\src\main\resources\static\js" />
+      <recent name="C:\Users\anc\Documents\newcomers-java\on-boarding-exercise\src\main\resources" />
+      <recent name="C:\Users\anc\Documents\newcomers-java\on-boarding-exercise\src\main\resources\i18n" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install -DskipTests" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ApplicationLauncher">
+    <configuration name="ApplicationLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vn.elca.training.ApplicationLauncher" />
+      <module name="on-boarding-exercise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceTest.testListNumberOfTasks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="on-boarding-exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vn.elca.training.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vn.elca.training.service" />
+      <option name="MAIN_CLASS_NAME" value="vn.elca.training.service.TaskServiceTest" />
+      <option name="METHOD_NAME" value="testListNumberOfTasks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceTest.testShowProjectNameOfTopTenNewTasks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="on-boarding-exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vn.elca.training.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vn.elca.training.service" />
+      <option name="MAIN_CLASS_NAME" value="vn.elca.training.service.TaskServiceTest" />
+      <option name="METHOD_NAME" value="testShowProjectNameOfTopTenNewTasks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ApplicationLauncher" />
+      <item itemvalue="JUnit.TaskServiceTest.testListNumberOfTasks" />
+      <item itemvalue="JUnit.TaskServiceTest.testShowProjectNameOfTopTenNewTasks" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApplicationLauncher" />
+        <item itemvalue="JUnit.TaskServiceTest.testShowProjectNameOfTopTenNewTasks" />
+        <item itemvalue="JUnit.TaskServiceTest.testListNumberOfTasks" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3434e37-635b-45ae-8018-2a520fabe366" name="Default Changelist" comment="" />
+      <created>1599114031761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599114031761</updated>
+      <workItem from="1599114032808" duration="12758000" />
+      <workItem from="1599183576013" duration="8527000" />
+      <workItem from="1599460912060" duration="980000" />
+      <workItem from="1599475353606" duration="304000" />
+      <workItem from="1599531262427" duration="1825000" />
+      <workItem from="1599535786316" duration="1239000" />
+      <workItem from="1599537049753" duration="14497000" />
+      <workItem from="1599559015933" duration="55000" />
+      <workItem from="1599614462052" duration="8344000" />
+      <workItem from="1599622872760" duration="20699000" />
+      <workItem from="1599705914543" duration="17547000" />
+      <workItem from="1599785611408" duration="927000" />
+      <workItem from="1599786555944" duration="30017000" />
+      <workItem from="1600048245542" duration="31777000" />
+      <workItem from="1600133723136" duration="23885000" />
+      <workItem from="1600218047790" duration="27815000" />
+      <workItem from="1600307099157" duration="6624000" />
+      <workItem from="1600313783174" duration="25077000" />
+      <workItem from="1600349233658" duration="21648000" />
+      <workItem from="1600390162272" duration="3295000" />
+      <workItem from="1600398616834" duration="756000" />
+      <workItem from="1608656772178" duration="658000" />
+      <workItem from="1608659126010" duration="3591000" />
+      <workItem from="1608879762486" duration="53000" />
+      <workItem from="1608884147232" duration="1056000" />
+      <workItem from="1608989051668" duration="1862000" />
+      <workItem from="1609004040064" duration="2236000" />
+      <workItem from="1609059141299" duration="499000" />
+      <workItem from="1609129161863" duration="6000" />
+      <workItem from="1609226544160" duration="179000" />
+      <workItem from="1609341227076" duration="2591000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/vn/elca/training/service/impl/ProjectServiceImpl.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/vn/elca/training/service/impl/ProjectServiceImpl.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/on_boarding_exercise$ApplicationLauncher.ic" NAME="ApplicationLauncher Coverage Results" MODIFIED="1600061400260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>vn.elca.training.*</FILTER>
+    </SUITE>
+  </component>
+</project>

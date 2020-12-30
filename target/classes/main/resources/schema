@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS Project (
+    Id integer primary key auto_increment,
+    Name varchar(100),
+    FinishingDate date
+);
